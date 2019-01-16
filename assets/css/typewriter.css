@@ -1,3 +1,4 @@
+@media all and (min-width: 100px) {
 .typewriter h1 {
   width: auto;
   display: inline-block;
@@ -10,6 +11,7 @@
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+}
 }
 
 /* The typing effect */
