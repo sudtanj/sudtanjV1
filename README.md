@@ -1,4 +1,4 @@
-# (WIP) Phantom - Jekyll Theme
+# (WIP) Phantom - Jekyll Theme [![Build Status](https://travis-ci.org/sudtanj/sudtanj.github.io.svg?branch=master)](https://travis-ci.org/sudtanj/sudtanj.github.io)
 
 A Jekyll version of the "Phantom" theme by [HTML5 UP](https://html5up.net/).
 
