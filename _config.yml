@@ -7,7 +7,7 @@
 
 # Site settings
 title: Phantom
-email: youremailaddress@gmail.com
+email: 
 description: The Jekyll version of the Phantom theme by HTML5 UP.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -19,12 +19,12 @@ font-awesome-icon-logo:
 # Social settings
 github_username: sudtanj
 linkedin_username: sudtanj
-twitter_username: andrewbanchich
-facebook_URL: andrewbanchich
-instagram_username: andrewbanchich
-dribbble_username: andrewbanchich
-500px_username: andrewbanchich
-phone: 555-5555
+twitter_username: 
+facebook_URL: 
+instagram_username: 
+dribbble_username: 
+500px_username: 
+phone: 
 
 # Build settings
 markdown: kramdown
