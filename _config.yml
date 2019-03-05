@@ -7,6 +7,7 @@
 
 # Site settings
 title: Phantom
+subtitle: This is Phantom, a free, fully responsive site
 email: youremailaddress@gmail.com
 description: The Jekyll version of the Phantom theme by HTML5 UP.
 baseurl: "" # the subpath of your site, e.g. /blog
