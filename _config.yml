@@ -9,7 +9,6 @@
 title: Phantom
 email: youremailaddress@gmail.com
 description: The Jekyll version of the Phantom theme by HTML5 UP.
-subtitle: This is Phantom, a free, fully responsive site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
