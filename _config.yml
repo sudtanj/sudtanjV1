@@ -33,5 +33,3 @@ home-link-in-menu: yes
 
 highlighter: rouge
 
-plugins:
-  - jekyll-seo-tag
