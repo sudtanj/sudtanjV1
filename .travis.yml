@@ -4,6 +4,7 @@ dist: xenial
 cache: bundler
 script:
   - gem install jekyll
+  - bundle update
   - bundle install
   - bundle exec jekyll build -d public
 deploy:
