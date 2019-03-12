@@ -12,6 +12,7 @@ email: youremailaddress@gmail.com
 description: The Jekyll version of the Phantom theme by HTML5 UP.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
+comments: true
 
 # Logo settings
 logo-image-url: images/logo.svg
