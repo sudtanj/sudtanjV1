@@ -34,5 +34,8 @@ markdown: kramdown
 # Layout settings
 home-link-in-menu: yes
 
+collections:
+    - products
+
 highlighter: rouge
 
