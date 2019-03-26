@@ -9,4 +9,8 @@ featured-image: images/pic13.jpg
 </p>
 </header>
 
-{% include shop_tiles.html %}
+<section class="tiles">
+{% for product in site.products %}
+  {% include shop_product.html %}
+{% endfor %}
+</section>
