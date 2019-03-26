@@ -37,6 +37,8 @@ home-link-in-menu: yes
 collections:
   products:
     output: true
+    
+categories: [pages]
 
 highlighter: rouge
 
