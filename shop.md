@@ -2,6 +2,7 @@
 layout: shop_productlisting
 title: T Web Store
 featured-image: images/pic13.jpg
+categories: [pages]
 ---
 
 <header> <div class="typewriter"> <h1>Welcome to T Web Store!</h1> </div><br /> <p> 
