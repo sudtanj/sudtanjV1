@@ -9,7 +9,7 @@
 
 		{% for page in site.pages %}
 
-		{% if page.title contains ".html" %}
+		{% if page.title %}
 
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
 
