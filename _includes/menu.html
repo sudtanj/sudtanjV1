@@ -1,12 +1,16 @@
 <nav id="menu">
 	<h2>Menu</h2>
 	<ul>
-		{% for page in site.pages %}
+	{% for page in site.pages %}
+	  {% if page.categories contains 'pages' %}
+	    <div class="item">
+	      <h3><a href="{{ page.url }}">
+		{{ page.title }}
+	      </a></h3>
 
-		{% if page.path contains ".html" %}
-
-		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
-
-		{% endif %} {% endfor %}
+	      <p>{{page.description}}</p>  
+	    </div>
+	  {% endif %}
+	{% endif %}
 	</ul>
 </nav>
