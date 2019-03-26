@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Jenkyll
 date: 2016-07-17 16:00:00 +0000
 categories: jekyll update
