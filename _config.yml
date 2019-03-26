@@ -35,7 +35,8 @@ markdown: kramdown
 home-link-in-menu: yes
 
 collections:
-    - products
+  products:
+    output: true
 
 highlighter: rouge
 
