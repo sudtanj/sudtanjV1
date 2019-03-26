@@ -6,9 +6,10 @@ head:
 ---
 <body>
 <div class="product-details">
-  <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
+  <center><img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/></center>
+  <center>
   <div class="product-description">
-    <p>{{ page.name }}</p>
+    <h1>{{ page.name }}</h1>
 
     <p>
       {{ page.content }}
@@ -23,7 +24,7 @@ head:
       Buy it for {{ page.price }} $
     </button>
   </div>
-</div> <br />
+    </div> </center> <br />
 <div class="product-reviews">
   {% assign reviews = site.data.reviews | where:'product',page.slug %}
   {% assign reviewCount = reviews | size %}
