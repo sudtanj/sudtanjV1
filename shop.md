@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: shop
 title: T Web Store
 featured-image: images/pic13.jpg
 ---
