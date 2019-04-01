@@ -5,4 +5,4 @@ categories: [pages]
 ---
 
 Support me on <Br />
-<a href="https://www.patreon.com/bePatron?u=18795657" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<iframe src="https://www.patreon.com/platform/iframe?widget=become-patron-button&redirectURI=https%3A%2F%2Fsudtanj.github.io%2Faboutme.html&creatorID=18795657"/>
