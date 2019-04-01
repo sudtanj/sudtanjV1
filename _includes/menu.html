@@ -6,15 +6,27 @@
 		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
 		{% endif %} {% endfor %}
 	{% for page in site.pages %}
-	  {% if page.categories contains 'pages' %}
+		{% if page.title contains 'Home' %}
+	    		<div class="item">
+	      			<h3><a href="{{ page.url }}">
+				{{ page.title }}
+	      		</a></h3>
+	      		<p>{{page.description}}</p>  
+			/div>
+		{% break %}
+		{% endif %}
+	{% endfor %}
+	{% for page in site.pages %}
+	{% if page.title != 'Home' %}  
+	{% if page.categories contains 'pages' %}
 	    <div class="item">
 	      <h3><a href="{{ page.url }}">
 		{{ page.title }}
 	      </a></h3>
-
 	      <p>{{page.description}}</p>  
 	    </div>
 	  {% endif %}
+				{% endif %}
 	{% endfor %}
 	</ul>
 </nav>
