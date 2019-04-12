@@ -2,8 +2,7 @@
 layout: shop_productlisting
 title: T Web Store - International
 featured-image: images/pic13.jpg
-categories:
-- pages
+categories: []
 
 ---
 <header> <div class="typewriter"> <h1>Welcome to T Web Store!</h1> </div><br /> <p> 
