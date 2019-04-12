@@ -4,4 +4,8 @@ title: T Web Store
 featured-image: ''
 
 ---
-<i class="fas fa-globe"></i> International
+# Choose your region
+
+<i class="fas fa-flag fa-2x"></i> International
+
+<i class="fas fa-flag fa-2x"></i> Indonesia
