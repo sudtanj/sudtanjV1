@@ -1,8 +1,9 @@
 ---
 layout: shop_productlisting
 title: T Web Store
-featured-image: ''
-categories: pages
+featured-image: images/17947.jpg
+categories:
+- pages
 
 ---
 # Choose your region
