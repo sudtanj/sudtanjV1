@@ -2,6 +2,7 @@
 layout: shop_productlisting
 title: T Web Store
 featured-image: ''
+categories: pages
 
 ---
 # Choose your region
