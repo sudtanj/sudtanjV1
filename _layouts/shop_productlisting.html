@@ -6,6 +6,10 @@ css:
   - snipcart_css.html
 ---
 <body>
+  % if page.featured-image %}
+    <span class="image main">
+      <img src="{{ page.featured-image }}" alt="">
+    </span> {% endif %}
 {{ content }} 
 </body>
 
