@@ -17,10 +17,8 @@ fields:
   type: text
   hidden: false
   default: ''
-- type: text
+- type: tag_list
   label: Category
   name: categories
-  config:
-    required: true
 pages:
 - shop_entrance.md
