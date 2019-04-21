@@ -21,12 +21,12 @@ font-awesome-icon-logo:
 # Social settings
 github_username: sudtanj
 linkedin_username: sudtanj
-twitter_username: 
+twitter_username:
 facebook_URL:
-instagram_username: 
-dribbble_username: 
-500px_username: 
-phone: 
+instagram_username:
+dribbble_username:
+500px_username:
+phone:
 patreon: sudtanj
 youtube: UCKaG-C8aAkgZFhly-r-gFVQ
 
@@ -38,19 +38,11 @@ home-link-in-menu: yes
 
 plugins:
  - jekyll-feed
- - jekyll-redirect-from
- - jekyll-seo-tag
- - jekyll-sitemap
- - jekyll-avatar
- - jemoji
- - jekyll-mentions
- - jekyll-include-cache
 
 collections:
   products:
     output: true
-    
+
 categories: [pages]
 
 highlighter: rouge
-
